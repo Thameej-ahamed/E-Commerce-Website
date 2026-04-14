@@ -1,9 +1,9 @@
 {
-  "short_name": "Fusion",
-  "name": "Fusion Electronics",
+  "short_name": "Xylo",
+  "name": "Xylo Electronics",
   "lang": "en",
   "dir": "ltr",
-  "description": "Fusion Electronics delivers a production-ready MERN commerce experience with curated hardware, AI recommendations, and secure checkout.",
+  "description": "Xylo Electronics delivers a production-ready MERN commerce experience with curated hardware, AI recommendations, and secure checkout.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
