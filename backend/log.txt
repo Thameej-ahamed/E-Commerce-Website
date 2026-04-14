@@ -1,0 +1,5 @@
+[dotenv@17.3.1] injecting env (9) from .env -- tip: ≡ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+Connected to: mongodb://localhost:27017/e-commerce
+[Seed] Categories created.
+[Seed] Admin user created.
+Seed Error: E11000 duplicate key error collection: e-commerce.products index: name_1 dup key: { name: "Google Pixel 8 Pro" }
