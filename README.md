@@ -267,6 +267,12 @@ The **backup** backend server is deployed on Render and can be accessed at the f
     <img src="docs/footer.png" alt="Xylo Electronics Footer" style="border-radius: 10px" width="100%"/>
 </p>
 
+### Return
+
+<p align="center">
+    <img src="docs/return-ui.png" alt="Xylo Electronics Return Page" style="border-radius: 10px" width="100%"/>
+</p>
+
 ## Features
 
 - **Product Management:**

@@ -56,7 +56,7 @@ export default function ProductCard({ product, addToCart }) {
         <CardMedia
           component="img"
           alt={product.name}
-          src={product.image}
+          src={product.image || (product.images && product.images[0])}
           loading="lazy"
           onError={e => {
             e.target.onerror = null;

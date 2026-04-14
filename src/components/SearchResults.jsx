@@ -43,7 +43,7 @@ function SearchResults({ results, onResultClick, setSearchResults, variant = 'po
             return (
               <ListItem key={pid} alignItems="flex-start" component={Link} to={`/product/${pid}`} onClick={handleItemClick} sx={listItemSx}>
                 <ListItemAvatar>
-                  <Avatar alt={product.name} src={product.image} sx={{ borderRadius: '0' }} />
+                  <Avatar alt={product.name} src={product.image || (product.images && product.images[0])} sx={{ borderRadius: '0' }} />
                 </ListItemAvatar>
                 <ListItemText
                   primary={product.name}

@@ -339,6 +339,30 @@ app.get('/api/products', async (req, res) => {
   }
 });
 
+// SEARCH ENDPOINT
+app.get('/api/search', async (req, res) => {
+  const { q } = req.query;
+  if (!q) return res.json([]);
+
+  try {
+    const searchRegex = new RegExp(q, 'i');
+    const products = await Product.find({
+      $or: [
+        { name: searchRegex },
+        { description: searchRegex },
+        { brand: searchRegex },
+        { category: searchRegex }
+      ]
+    }).limit(10);
+    
+    console.log(`[API-Search] Found ${products.length} matches for "${q}"`);
+    res.json(products);
+  } catch (error) {
+    console.error('[API-Search] Error:', error.message);
+    res.status(500).json({ error: 'Search failed' });
+  }
+});
+
 app.get('/api/products/:id', async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);

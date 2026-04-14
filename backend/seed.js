@@ -27,7 +27,7 @@ const productsData = [
     "discountPrice": 148900,
     "category": "electronics",
     "brand": "Apple",
-    "images": ["https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-blue-thumbnew-600x600.jpg"],
+    "images": ["https://www.designinfo.in/wp-content/uploads/2023/12/Apple-iPhone-15-Pro-Max-256GB-Blue-Titanium-1.webp"],
     "stock": 100
   },
   {
@@ -37,7 +37,7 @@ const productsData = [
     "discountPrice": 96900,
     "category": "computers",
     "brand": "Apple",
-    "images": ["https://cdn8.web4s.vn/media/products/mac-air-m2/macbookairm2-midnight%201.jpg"],
+    "images": ["https://www.designinfo.in/wp-content/uploads/2023/10/Apple-13.6-MacBook-Air-M2-Midnight-1.webp"],
     "stock": 50
   },
   {
@@ -47,7 +47,7 @@ const productsData = [
     "discountPrice": 184900,
     "category": "computers",
     "brand": "Apple",
-    "images": ["https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-mbp14-m2-silver-202303?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=ZmdRZFZQaThmdmpsRzMrNlU0TnIrNVN1UEFsa2dENVBwbUVOOUlVZ3dMdmRxTENLaEJiU0o5a1FqaDFsUHhYNjE1UUxLT2t0cW42N3FvQzVqaGhrVVltRElNTjY0QXJtekNDMXFQT2xOSU4rYWpGdS9XeFgvbS9ITnNYOEhYaG4"],
+    "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFQ3rTaNZ7_o2EXJ9jUNoOPF_IxF4HnKkNaA&s"],
     "stock": 30
   },
   {
@@ -57,7 +57,7 @@ const productsData = [
     "discountPrice": 26990,
     "category": "audio",
     "brand": "Sony",
-    "images": ["https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/272419_jqvb9x.png?tr=w-600"],
+    "images": ["https://www.designinfo.in/wp-content/uploads/2023/08/Sony-WH-1000XM5-Silver-1-485x485.webp"],
     "stock": 200
   },
   {
@@ -67,7 +67,7 @@ const productsData = [
     "discountPrice": 114990,
     "category": "electronics",
     "brand": "Samsung",
-    "images": ["https://cdn.mediamart.vn/images/product/qled-tivi-4k-samsung-65-inch-65q80c-smart-tv_5304e716.png"],
+    "images": ["https://m.media-amazon.com/images/I/81BXTdEC03L._AC_UF1000,1000_QL80_.jpg"],
     "stock": 10
   },
   {
@@ -77,7 +77,7 @@ const productsData = [
     "discountPrice": 319990,
     "category": "cameras",
     "brand": "Canon",
-    "images": ["https://i1.adis.ws/i/canon/eos-r5_front_rf24-105mmf4lisusm_square_32c26ad194234d42b3cd9e582a21c99b"],
+    "images": ["https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&q=80&w=800"],
     "stock": 5
   },
   {
@@ -87,7 +87,7 @@ const productsData = [
     "discountPrice": 39900,
     "category": "electronics",
     "brand": "Apple",
-    "images": ["https://akbroshop.com/wp-content/uploads/2022/08/hinh-aw-s7-xanh.jpg"],
+    "images": ["https://www.designinfo.in/wp-content/uploads/2024/05/Apple-Watch-Series-9-GPSCellular-with-Midnight-Sport-Band-ML-45mm-Display-Midnight-Aluminium-Case-1.webp"],
     "stock": 100
   },
   {
@@ -97,7 +97,7 @@ const productsData = [
     "discountPrice": 165990,
     "category": "computers",
     "brand": "Dell",
-    "images": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/touch-black/notebook-xps-15-9530-t-black-gallery-1.psd?fmt=pjpg&wid=800"],
+    "images": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/touch-black/notebook-xps-15-9530-t-black-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3778&hei=2323&qlt=100,1&resMode=sharp2&size=3778,2323&chrss=full&imwidth=5000"],
     "stock": 20
   },
   {
@@ -107,7 +107,7 @@ const productsData = [
     "discountPrice": 99990,
     "category": "electronics",
     "brand": "Samsung",
-    "images": ["https://hanoicomputercdn.com/media/product/60370_may_tinh_bang_samsung_galaxy_tab_s7_plus_128gb_den.png"],
+    "images": ["https://m.media-amazon.com/images/I/71kgQosWURL._AC_UF1000,1000_QL80_.jpg"],
     "stock": 30
   },
   {
@@ -117,7 +117,7 @@ const productsData = [
     "discountPrice": 224990,
     "category": "cameras",
     "brand": "Sony",
-    "images": ["https://zshop.vn/images/detailed/92/1634812545_1667800.jpg"],
+    "images": ["https://images.unsplash.com/photo-1516724562728-afc824a36e84?auto=format&fit=crop&q=80&w=800"],
     "stock": 10
   },
   {
@@ -157,7 +157,7 @@ const productsData = [
     "discountPrice": 8995,
     "category": "electronics",
     "brand": "Logitech",
-    "images": ["https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&q=80&w=800"],
+    "images": ["https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_UF1000,1000_QL80_.jpg"],
     "stock": 150
   },
   {
